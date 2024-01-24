@@ -27,7 +27,7 @@ env_variables:
     DB_DATABASE: portfolio-1
     DB_USERNAME: root
     DB_PASSWORD: rizqy
-    DB_SOCKET: './cloud-sql-proxy myportfolio-412010:asia-southeast1:gcp-portfolio-sql'
+    DB_SOCKET: '/cloudsql/myportfolio-412010:asia-southeast1:gcp-portfolio-sql'
 
     LOG_LEVEL: debug
 
