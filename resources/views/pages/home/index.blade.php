@@ -10,7 +10,7 @@
         <div class="left-content py-36 w-2/4 flex">
             <div class="pr-5 pb-10">
                 <h1 class="title font-bold text-5xl">Hi there,</h1>
-                <h2 class="font-semibold text-blue-200">tes</h2>
+                <h2 class="font-semibold text-blue-200">tes1</h2>
                 <h1 class="text-light-sage-green font-bold text-5xl">i'm Rizqy.</h1>
                 <h1 class="font-bold text-5xl pt-5"> a Web Developer </h1>
                 <div class="pt-1">
