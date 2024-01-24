@@ -32,4 +32,4 @@ env_variables:
     LOG_LEVEL: debug
 
 beta_settings:
-    cloud_sql_instances:gcp-portfolio-sql
+    cloud_sql_instances: 'gcp-portfolio-sql'
