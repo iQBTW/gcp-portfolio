@@ -1,11 +1,11 @@
 runtime: php
 env: flex
 
-runtime_config: 
+runtime_config:
        document_root: public
 
 # Ensure we skip ".env", which is only for local development
-skip_files: 
+skip_files:
     - .env
 
 automatic_scaling:
@@ -27,7 +27,7 @@ env_variables:
     DB_DATABASE: portfolio-1
     DB_USERNAME: root
     DB_PASSWORD: rizqy
-    DB_HOST: 127.0.0.1 
+    DB_SOCKET: './cloud-sql-proxy myportfolio-412010:asia-southeast1:gcp-portfolio-sql'
 
     LOG_LEVEL: debug
 
