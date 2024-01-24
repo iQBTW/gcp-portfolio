@@ -965,9 +965,6 @@ select {
 .max-w-6xl {
   max-width: 72rem;
 }
-.max-w-7xl {
-  max-width: 80rem;
-}
 .max-w-sm {
   max-width: 24rem;
 }
@@ -1170,9 +1167,6 @@ select {
 .border-2 {
   border-width: 2px;
 }
-.border-b {
-  border-bottom-width: 1px;
-}
 .border-b-2 {
   border-bottom-width: 2px;
 }
@@ -1356,10 +1350,6 @@ select {
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-}
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
 }
 .py-16 {
   padding-top: 4rem;
@@ -1558,9 +1548,6 @@ select {
 }
 .leading-normal {
   line-height: 1.5;
-}
-.leading-tight {
-  line-height: 1.25;
 }
 .tracking-wide {
   letter-spacing: 0.025em;

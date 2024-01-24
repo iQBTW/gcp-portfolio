@@ -24,4 +24,12 @@ env_variables:
     APP_KEY: base64:P4OKilk0oWjgOCPoD5CzPrDXJg1o+m14/AXzF2uk8s0=
     APP_NAME: "GCP-Portfolio"
 
+    DB_DATABASE: portfolio-1
+    DB_USERNAME: root
+    DB_PASSWORD: rizqy
+    DB_SOCKET: '/cloudsql/gcp-portfolio-sql'
+
     LOG_LEVEL: debug
+
+beta_settings:
+    cloud_sql_instances: 'gcp-portfolio-sql'
