@@ -10,7 +10,6 @@
         <div class="left-content py-36 w-2/4 flex">
             <div class="pr-5 pb-10">
                 <h1 class="title font-bold text-5xl">Hi there,</h1>
-                <h2 class="font-semibold text-blue-200">tes1</h2>
                 <h1 class="text-light-sage-green font-bold text-5xl">i'm Rizqy.</h1>
                 <h1 class="font-bold text-5xl pt-5"> a Web Developer </h1>
                 <div class="pt-1">
@@ -35,41 +34,6 @@
         </div>
     </section>
 
-    <section class="font-poppins bg-hitam w-full flex-wrap m-auto items-center pt-5 pb-20">
-        <div class="w-[250px] m-auto py-2 px-5 ring-2 ring-biru-terang rounded-full">
-            <h1 class="text-putih font-bold text-xl text-center ">Skills & Knowledges</h1>
-        </div>
-
-        <div class="order-1 flex flex-wrap pt-4">
-            <h1></h1>
-            <div class="w-[300px] ml-4 px-3 py-3 ring-2 ring-ungu-gelap rounded-3xl flex justify-between gap-3">
-                <div class="m-auto">
-                    <h1 class="text-putih text-center animate-pulse">Basic</h1>
-                </div>
-                <div class="hover:translate-x-2 transition-transform ease-in duration-150">
-                    <img class="w-[62px]" src="{{ asset('img/HTML5_Badge.svg') }}" alt="html_logo">
-                </div>
-                <div class=" hover:-translate-x-2 transition-all ease-in duration-150">
-                    <img class="w-[62px]" src="{{ asset('img/CSS3_logo.svg') }}" alt="css_logo">
-                </div>
-            </div>
-        </div>
-
-        <div class="order-1 w-[300px] flex flex-wrap ml-4 py-4 ring-2 ring-ungu-gelap rounded-3xl gap-3">
-            <div class="flex-col justify-center m-auto">
-                <h1 class="text-putih text-center animate-pulse">Programing Language</h1>
-            </div>
-
-            <div class="w-[300px] ml-4 px-3 py-3 flex justify-between m-auto">
-                <div class="hover:translate-x-2 transition-transform ease-in duration-150 m-auto">
-                    <img class="w-[62px]" src="{{ asset('img/Unofficial_JavaScript_logo_2.svg') }}" alt="js_logo">
-                </div>
-                <div class="hover:-translate-x-2 transition-transform ease-in duration-150 m-auto">
-                    <img class="" src="{{ asset('img/php-med-trans-light.gif') }}" alt="js_logo">
-                </div>
-            </div>
-        </div>
-    </section>
 
     {{-- <section class="font-poppins bg-hitam w-full flex-wrap m-auto items-center pt-5 pb-20">
         <div class="w-[200px] m-auto pb-5 pt-5">
