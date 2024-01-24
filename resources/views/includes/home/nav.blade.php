@@ -11,7 +11,7 @@
                 <a class="text-ungu-gelap hover:text-ungu-gelap transition-all ease-in-out 5s" href="{{ route('homepage.index') }}">Home</a>
             </li>
             <li>
-                {{-- <a class="text-biru-terang hover:text-ungu-gelap transition-all ease-in-out 5s" href="{{ route('homepage.project') }}">Projects</a> --}}
+                <a class="text-biru-terang hover:text-ungu-gelap transition-all ease-in-out 5s" href="{{ route('homepage.project') }}">Projects</a>
             </li>
             <li>
                 <a class="text-biru-terang hover:text-ungu-gelap transition-all ease-in-out 5s" href="">Contact</a>
@@ -27,7 +27,7 @@
         </div>
         <div class="hidden sm:hidden md:flex lg:flex">
             <ul class="flex gap-2">
-                {{-- @if (Auth::check())
+                @if (Auth::check())
                 <li class="py-3">
                     <a class="text-biru-terang hover:text-ungu-gelap transition-all ease-in-out 5s" href="{{ route('dashboard') }}">Dashboard</a>
                 </li>
@@ -45,7 +45,7 @@
                 <li class="rounded-full bg-light-sage-green hover:bg-ungu-gelap hover:text-putih transition-all ease-in-out 5s p-3">
                     <a href="{{ route('user.index') }}">SignUp</a>
                 </li>
-                @endif --}}
+                @endif
             </ul>
         </div>
     </div>

@@ -5,9 +5,9 @@
 @endsection
 
 @section('content')
-    <div class="">
+    <div class="mx-auto translate-y-[50%]">
         <h1>
-            ini home
+            Welcome!
         </h1>
     </div>
 @endsection
