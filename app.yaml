@@ -23,6 +23,7 @@ env_variables:
     APP_ENV: production
     APP_KEY: base64:P4OKilk0oWjgOCPoD5CzPrDXJg1o+m14/AXzF2uk8s0=
     APP_NAME: "GCP-Portfolio"
+    APP_URL: https://myportfolio-412010.as.r.appspot.com/
 
     DB_DATABASE: portfolio-1
     DB_USERNAME: root
