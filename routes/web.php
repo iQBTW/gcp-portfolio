@@ -8,6 +8,7 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\Dashboard\DashboardProjectController;
 use App\Http\Controllers\Dashboard\DashboardController;
+use Illuminate\Support\Facades\Artisan;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,6 +20,9 @@ use App\Http\Controllers\Dashboard\DashboardController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get('/linkstorage', function () {
+    Artisan::call('storage:link');
+});
 
 Route::get('/', [HomeController::class, 'index'])->name('homepage.index');
 Route::get('/projects', [ProjectController::class, 'index'])->name('homepage.project');
